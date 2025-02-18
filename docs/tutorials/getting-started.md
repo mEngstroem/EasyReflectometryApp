@@ -1,11 +1,26 @@
 # Getting started
-This is the tutorial for getting started with EasyReflectometryApp and how to use it.\\
+This is the tutorial for getting started with EasyReflectometryApp and how to use it.  
 
 ## Home page
-When opening up the EasyRecletometryApp you are presented with the home page.
-![EasyReflectometry' home page](./_images/homepage.png)
-From here you initialize the programs by hitting **Start**.\\
-You can also go to the developer documentation with **Online documentation** and get the source information with **about**.
+When opening up the EasyRecletometryApp you are presented with the **Home** page.  
 
-## Intialize project
+<img src='./_images/home.png' width='800px'></img>
 
+- **A**: Starts your project.
+- **B**: Pop-up window with source information.
+- **C**: Link to developer documentation.
+
+## Intialice project
+
+Pressing **A** will direct you to the **Project** page.  
+
+<img src='./_images/project.png' width='800px'></img>
+
+- **1**: Create a new project as a folder containing experiments amd JSON file for settings.
+   - New project need name, description and pick a save location.
+- **2**: Opens a previous project from the JSON file.
+- **3**: Continues to **Sample** with current selected project.
+
+
+If no project is selected/created a default project is initialiced.  
+This project is used going forward to explain the app
