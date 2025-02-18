@@ -4,10 +4,9 @@
    :hidden:
    :caption: Contents:
    
-   What are the tabs/tabs
-   Loading data/data
    Setting up a model/models
    Fitting data/fitting
+   Settings/settings
 
 
 .. Indices and tables

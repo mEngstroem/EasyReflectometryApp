@@ -10,7 +10,7 @@ When opening up the EasyRecletometryApp you are presented with the **Home** page
 - **B**: Pop-up window with source information.
 - **C**: Link to developer documentation.
 
-## Intialice project
+## Intialise project
 
 Pressing **A** will direct you to the **Project** page.  
 
@@ -22,5 +22,14 @@ Pressing **A** will direct you to the **Project** page.
 - **3**: Continues to **Sample** with current selected project.
 
 
-If no project is selected/created a default project is initialiced.  
-This project is used going forward to explain the app
+If no project is selected/created a default project is initialised.  
+This project is used going forward to explain the app.
+
+## Save and settings
+When a project is started two further buttons is visualised, and settings is the opposite corner of those.
+
+<img src='./_images/save_setting.png' width='800px'></img>
+
+- **A**: Save project.
+- **B**: Reset to start.
+- **C**: Setting, is further explained in settings.
