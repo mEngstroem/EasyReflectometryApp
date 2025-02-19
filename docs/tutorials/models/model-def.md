@@ -1,11 +1,58 @@
 # Material and model setup
 When a project is intialised it is then possible to define material and set the model.  
 
-Lets us first look at the general layout of the **Sample** page.
-<img src='./../_images/sample_main.png' width='800px'></img> 
-<!-- Change image to be more overview, and not explaining each label -->
+Lets us first look at the general layout of the `Sample` page, which is split up to two parts, the main window showing the graphs and the side bar being the control panel for variable and data.
+<img src='./../_images/sample_overview.png' width='800px'></img>
 
-- **A**: Reflectivity curve of model
-- **B**: SLD (Scattering Length Density) curve of model
-- **C**: Basic controls for defining material and model
-- **D**: Advanced controls for further setting parameters for model
+- **A**: Graph change between the Reflecitivity- and Scattering Length Density (SLD) curve.
+- **B**: Graph control of ledger, visible coordinates on hower, zoom and pan control, and reset.
+- **C**: Basic controls, for defining material and model, and advanced controls for further setting parameters.
+
+## Basic controls
+### Material editor
+In order to constuct a model in the app, first you add the materials that will compose the layers in `Material Editor`.  
+The materials are added by the real and imaginary components of the scattering length density (in units of 10<sup>-6</sup>Å<sup>-2</sup>) and given a name for the material.  
+
+<img src='./../_images/sample_material.png' width='800px'></img>
+
+- **A**: For adding more material.
+- **B**: Duplicating the last clicked material.
+- **C**: Changes the ordering of materials.
+
+### Model creation and editing
+For creating new models, the `Models selector` tab is used, then for setting the assemblies in the model the `Model editor` is used.  
+
+<img src='./../_images/sample_model.png' width='800px'></img>
+
+- **A**: Renaming model.
+- **B**: Removing the specific model.
+- **C**: Adding more models.
+- **1**: Renaming/naming the assembly.
+- **2**: Setting the type of assembly; Multilayer, Repeating Multilayer or Surfactant layer.
+- **3**: Removing the specific assembly.
+- **4**: Adding more asseblies.
+
+### Layer editor
+Then for editing the assemblies in the model, the `Layer editor` is used.  
+By clicking an assebly, the `Layer editor` is specified and changes can be made to that assembly.
+
+<img src='./../_images/sample_layer.png' width='800px'></img>
+
+- **A**: Pick the desired assebly to modify.
+- **1**: Choose a material from materials in the `Material Editor`.
+- **2**+**3**: Setting the Thickness and Upper Roughness of the material in Angstrom, Å.
+
+## Advanced controls
+In the advanced controls it is possible to apply specific Q-range of interest and sample constraints on the model.
+
+<img src='./../_images/sample_adv.png' width='800px'></img>
+
+- **A**: Setting min. Q value of interest.
+- **B**: Setting max. Q value of interest.
+- **C**: Setting Q-resolution.<br><br>
+- **D**: Set 1. dependent paramater.
+- **E**: Set 2. dependent paramater.
+- **F**: Set the mathematical operator (+,-,*,/) for **G** to apply to **E**.
+- **G**: Numeric value to apply to **F**.
+- **H**: Set the comparison operators (=,<,>) between **D** and **E**.
+- **I**: Apply the sample constraint to the model.
