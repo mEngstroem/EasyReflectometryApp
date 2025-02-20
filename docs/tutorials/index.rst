@@ -5,6 +5,7 @@
    :caption: Contents:
    
    Setting up a model/models
+   Loading data/data
    Fitting data/fitting
    Settings/settings
 

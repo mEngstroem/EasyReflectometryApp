@@ -17,9 +17,10 @@ Pressing **A** will direct you to the **Project** page.
 <img src='./_images/project.png' width='800px'></img>
 
 - **1**: Create a new project as a folder containing experiments amd JSON file for settings.
-   - New project need name, description and pick a save location.
+   - New projects need a name, description and to set a save location.
 - **2**: Opens a previous project from the JSON file.
-- **3**: Continues to **Sample** with current selected project.
+- **3**: Continues to the next page, here it is **Model**.
+    - This button is universal through the app and will always foreward you to the next page.
 
 
 If no project is selected/created a default project is initialised.  

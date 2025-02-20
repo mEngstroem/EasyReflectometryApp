@@ -1,7 +1,7 @@
 # Material and model setup
 When a project is intialised it is then possible to define material and set the model.  
 
-Lets us first look at the general layout of the `Sample` page, which is split up to two parts, the main window showing the graphs and the side bar being the control panel for variable and data.
+Lets us first look at the general layout of the `Model` page, which is split up to two parts, the main window showing the graphs and the side bar being the control panel for variable and data.
 <img src='./../_images/sample_overview.png' width='800px'></img>
 
 - **A**: Graph change between the Reflecitivity- and Scattering Length Density (SLD) curve.
