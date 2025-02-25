@@ -3,9 +3,9 @@ The settings can be reached from all tabs by pressing the cogs icon the the top 
 
 <img src='./../_images/setting_overview.png' width='800px'></img>
 
-In the settings menu, there is five tabs:
+In the settings menu, there are five tabs:
 #### Prompts
-Used for enabling/disabling tool tips.
+Used for enabling/disabling tooltips.
 
 #### Updates
 Allowing the app to check for updates when starting and force-checking for updates.
