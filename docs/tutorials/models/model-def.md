@@ -2,6 +2,7 @@
 When a project is initialised it is then possible to define material and set the model.  
 
 Let us first look at the general layout of the `Model` page, which is split up into two parts, the main window showing the graphs and the sidebar being the control panel for variables and data.
+
 <img src='./../_images/sample_overview.png' width='800px'></img>
 
 - **A**: Graph change between the Reflectivity- and Scattering Length Density (SLD) curve.

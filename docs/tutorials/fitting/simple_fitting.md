@@ -19,6 +19,7 @@ The graph window has the same functionality as the previous tabs, so it will not
 
 ## Basic controls 
 The basic controls is for fitting the variables.
+
 <img src='./../_images/anal_bsc.png' width='800px'></img>
 
 - **A**: Picking the desired variable to use the slider for fine-tuning it.
@@ -30,6 +31,7 @@ The basic controls is for fitting the variables.
 
 ## Advanced controls
 The advanced control is then for changing the calculation engine and setting the minimisation method.
+
 <img src='./../_images/anal_adv.png' width='800px'></img>
 
 - **A**: Changing the calculation engine between `refnx` and `refl1d`.<br></br>
