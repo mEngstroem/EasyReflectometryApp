@@ -7,7 +7,7 @@ Then a polymer film is attached to the silicon dioxide by some chemical method a
 This is shown pictorially below, as a slab model. 
 
 <center>
-    <img src='./../_images/polymer_film.png' width='300px'></img>
+    <img src='./_images/polymer_film.png' width='800px'></img>
 </center>
 <center>
     A slab model description of the polymer film system.
@@ -20,7 +20,7 @@ The graph window has the same functionality as the previous tabs, so it will not
 ## Basic controls 
 The basic controls is for fitting the variables.
 
-<img src='./../_images/anal_bsc.png' width='800px'></img>
+<img src='./_images/anal_bsc.png' width='800px'></img>
 
 - **A**: Picking the desired variable to use the slider for fine-tuning it.
 - **B**: Able to change the specific variable.
@@ -32,7 +32,7 @@ The basic controls is for fitting the variables.
 ## Advanced controls
 The advanced control is then for changing the calculation engine and setting the minimisation method.
 
-<img src='./../_images/anal_adv.png' width='800px'></img>
+<img src='./_images/anal_adv.png' width='800px'></img>
 
 - **A**: Changing the calculation engine between `refnx` and `refl1d`.<br></br>
 - **B**: Setting the minimisation method for minimising variables.
