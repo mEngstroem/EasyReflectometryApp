@@ -43,7 +43,7 @@ jobs:
       uses: sphinx-notes/pages@documentation-fixes
       with:
         install_requirements: true
-        documentation_path: docs/src
+        documentation_path: docs/src/
     - name: Push changes
       uses: ad-m/github-push-action@documentation-fixes
       continue-on-error: true
