@@ -4,7 +4,7 @@ The aim of building the application and library is to create an accessible, eith
 
 ## `EasyReflectometryLib`
 
-Based on [ADR0002](./adrs/adr0002), the only expected method of installation for the Python library is via PyPI (or some other `pip` compatible approach). 
+Based on [ADR0002](./../adrs/adr0002.rst), the only expected method of installation for the Python library is via PyPI (or some other `pip` compatible approach). 
 Therefore, the building of `EasyReflectometryLib` is achieved through relatively standard Github actions for pushing built Python modules to PyPI.
 This is achieved though common approaches, discussed in [this PyPA documentation](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/), specifically the Github action defined in the [`python-publish.yml` workflow](https://github.com/easyScience/EasyReflectometryLib/blob/main/.github/workflows/python-publish.yml). 
 
@@ -24,7 +24,7 @@ This action performs the following steps:
 2. A series of environment variables are set, mostly related to the git state at the time. These are used in the built app to give extra information regarding provenence. 
 3. The application bundle is then created and the installers are produced using [PyInstaller](https://pyinstaller.org/en/stable/). 
 4. These are installed on the build machines and the application is launched (and then quit), to test if the build is at least in part successful. 
-5. The installers are then made available for [testing](#testing) as Github artifacts of the action. 
+5. The installers are then made available for :ref:`testing` as Github artifacts of the action. 
 6. If the build is happening on the `master` branch, the installer is also added to a release.
 
 ### Testing
