@@ -18,13 +18,13 @@ $ cd ../
 Then, to that you are working with your local version of `EasyReflectometryLib`, you want to change line 35 of the `EasyReflectometryApp` `pyproject.toml` file from
 
 ```toml
-'EasyReflectometryLib @ git+https://github.com/easyScience/EasyReflectometryLib.git@develop',
+'EasyReflectometryLib @ git+https://github.com/easyScience/EasyReflectometryLib.git@develop'
 ```
 
 to use the directory where you have cloned `EasyReflectometryLib`, i.e.
 
 ```toml
-'EasyReflectometryLib @ file:///path/to/EasyReflectometryLib',
+'EasyReflectometryLib @ file:///path/to/EasyReflectometryLib'
 ```
 
 With this modification in place, you should then be able to install `EasyReflectometryApp`

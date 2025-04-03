@@ -5,7 +5,7 @@ Version: 1.0.0
 ## Home page
 When opening up the EasyRecletometryApp you are presented with the **Home** page.  
 
-<img src='./_images/home.png' width='800px'></img>
+<img src='./tutorials/_images/home.png' width='800px'></img>
 
 - **A**: Starts your project.
 - **B**: Pop-up window with source information.
@@ -15,7 +15,7 @@ When opening up the EasyRecletometryApp you are presented with the **Home** page
 
 Pressing **A** will direct you to the **Project** page.  
 
-<img src='./_images/project.png' width='800px'></img>
+<img src='./tutorials/_images/project.png' width='800px'></img>
 
 - **1**: Create a new project as a folder containing experiments and a JSON file for settings.
    - New projects need a name, description and set the save location.
@@ -30,8 +30,20 @@ This project is used going forward to explain the app.
 ## Save and settings
 When a project is started two further buttons is visualised, and settings is the opposite corner of those.
 
-<img src='./_images/save_setting.png' width='800px'></img>
+<img src='./tutorials/_images/save_setting.png' width='800px'></img>
 
 - **A**: Save project.
 - **B**: Reset to start.
 - **C**: Setting, is further explained in settings.
+
+```{toctree}
+---
+maxdepth: 1
+---
+
+tutorials/model_def.md
+tutorials/load_data.md
+tutorials/simple_fitting.md
+tutorials/settings.md
+
+```
