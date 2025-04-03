@@ -1,4 +1,4 @@
-# Getting started
+# Tutorial
 This is the tutorial for getting started with EasyReflectometryApp and how to use it.  
 Version: 1.0.0 
 
