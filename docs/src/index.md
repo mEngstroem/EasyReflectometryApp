@@ -1,4 +1,4 @@
-# EasyReflectometry
+# EasyReflectometryApp
 
 This is the home of the EasyReflectometry developer documentation, covering both the [application](https://github.com/easyScience/EasyReflectometryApp) and the [Python library](https://github.com/easyScience/EasyReflectometryLib) that it is built on. 
 This is distinct from the [Python library documentation](https://docs.easyreflectometry.org), which covers how to use the Python library and details the API. 

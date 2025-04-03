@@ -70,8 +70,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'EasyReflectometry Dev Docs'
-copyright = f"{datetime.date.today().year}, EasyReflectometry"
-author = "EasyReflectometry"
+copyright = f"{datetime.date.today().year}, EasyReflectometryApp"
+author = "EasyReflectometryApp"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -175,8 +175,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'EasyReflectometry',
-     'EasyReflectometry Developer Documentation',
+    (master_doc, 'EasyReflectometryApp',
+     'EasyReflectometryApp Developer Documentation',
      [author], 1)
 ]
 
@@ -187,10 +187,10 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'EasyReflectometry',
-     'EasyReflectometry Developer Documentation',
+    (master_doc, 'EasyReflectometryApp',
+     'EasyReflectometryApp Developer Documentation',
      author,
-     'EasyReflectometry',
+     'EasyReflectometryApp',
      'One line description of project.',
      'Miscellaneous'),
 ]
