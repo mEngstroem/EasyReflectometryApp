@@ -6,7 +6,7 @@ The super-phase (where the neutrons are incident first) is a silicon (Si) wafer 
 Then a polymer film is attached to the silicon dioxide by some chemical method and this polymer film is solvated in heavy water (D<sub>2</sub>O) which also makes up the sub-phase of the system. 
 This is shown pictorially below, as a slab model. 
 
-![A slab model description of the polymer film system.](./_images/polymer_film.png){width=50}
+![A slab model description of the polymer film system.](./_images/polymer_film.png)
 
 Now for explaining the `Analysis` tab let's look at how the EasyReflectometryApp can fit. The tab is like the previous tabs split into two windows, a graph- and a data-window.<br>
 The graph window has the same functionality as the previous tabs, so it will not be explained further. The data window has two categories: `Basic` and `Advanced` controls.

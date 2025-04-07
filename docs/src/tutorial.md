@@ -1,5 +1,5 @@
-# Tutorial
-This is the tutorial for getting started with EasyReflectometryApp and how to use it.  
+# Getting started
+This is the tutorial for EasyReflectometryApp and how to use it.  
 Version: 1.0.0 
 
 ## Home page
@@ -35,15 +35,3 @@ When a project is started two further buttons is visualised, and settings is the
 - **A**: Save project.
 - **B**: Reset to start.
 - **C**: Setting, is further explained in settings.
-
-```{toctree}
----
-maxdepth: 1
----
-
-tutorials/model_def.md
-tutorials/load_data.md
-tutorials/simple_fitting.md
-tutorials/settings.md
-
-```
